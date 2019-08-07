@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard",
+    "lint-fix": "standard --fix"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
     "cheerio": "^1.0.0-rc.3",
     "node-fetch": "^2.6.0",
     "rss-parser": "^3.7.0",
-    "logger": "file:../logger"
+    "logger": "file:../logger",
+    "standard": "^13.0.2"
   }
 }
