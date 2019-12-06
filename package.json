@@ -14,11 +14,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ava": "^2.2.0",
     "cheerio": "^1.0.0-rc.3",
+    "logger": "git://github.com/miujsag/logger.git",
     "node-fetch": "^2.6.0",
     "rss-parser": "^3.7.0",
-    "logger": "file:../logger",
-    "ava": "^2.2.0",
     "standard": "^13.0.2"
   }
 }
