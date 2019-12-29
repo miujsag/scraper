@@ -22,8 +22,3 @@ module.exports = function () {
     Statistics: Statistics
   }
 }
-
-/* Article.scrape('https://444.hu/2019/11/30/kubatov-nem-szabad-hagyni-hogy-ujsagirok-ocsaroljak-a-nelkuledet')
-  .then(console.log)
-  .catch(console.log)
- */
