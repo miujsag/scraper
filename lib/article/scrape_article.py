@@ -18,15 +18,12 @@ def scrape(url):
 
   article.download()
   article.parse()
-  article.nlp()
   
   article_dict = {
     'title': article.title,
     'authors': article.authors,
-    'summary': clean_text(article.summary),
-    'keywords': article.keywords,
     'published_at': date_to_string(article.publish_date),
-    'cover': article.top_image,
+    'image': article.top_image,
     'content': clean_text(article.text),
     'html': clean_text(article.html)
   }
