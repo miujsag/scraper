@@ -7,7 +7,7 @@ const { PythonShell } = require("python-shell");
 const HTTPClient = require("./lib/utils/http_client")(fetch);
 const HTMLParser = require("./lib/utils/html_parser")(cheerio);
 const RSSParser = require("./lib/utils/rss_parser")(parser);
-const Article = require("./lib/article")(HTTPClient, HTMLParser);
+const Article = require("./lib/article")(HTTPClient, HTMLParser, PythonShell);
 const RSS = require("./lib/rss")(RSSParser);
 const Weather = require("./lib/weather")(HTTPClient);
 const Rate = require("./lib/rate")(HTTPClient, HTMLParser);
@@ -22,3 +22,10 @@ module.exports = function () {
     Statistics: Statistics,
   };
 };
+
+/* Article.scrape(
+  "https://index.hu/belfold/2020/06/29/retvari_bence_tortenelem_tankonyv_tortenelemtanitas_nat_biralat_tortenelemtanarok_egylete/"
+)
+  .then(console.log)
+  .catch(console.log);
+ */
