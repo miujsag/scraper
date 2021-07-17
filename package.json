@@ -21,6 +21,7 @@
     "iconv-lite": "^0.5.1",
     "logger": "git://github.com/miujsag/logger.git",
     "node-fetch": "^2.6.1",
+    "node-readability": "^3.0.0",
     "python-shell": "^1.0.8",
     "rss-parser": "^3.7.0",
     "standard": "^13.0.2"

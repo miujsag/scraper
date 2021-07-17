@@ -22,10 +22,3 @@ module.exports = function () {
     Statistics: Statistics,
   };
 };
-
-/* Article.scrape(
-  "https://index.hu/belfold/2020/06/29/retvari_bence_tortenelem_tankonyv_tortenelemtanitas_nat_biralat_tortenelemtanarok_egylete/"
-)
-  .then(console.log)
-  .catch(console.log);
- */
